@@ -4,10 +4,10 @@
 title = Wikipedia App
 
 # (str) Package name
-package.name = Wiki
+package.name = wiki
 
 # (str) Package domain (needed for android/ios packaging)
-package.domain = org.run_fun
+package.domain = org.wiki
 
 # (str) Source code where the main.py live
 source.dir = .
@@ -36,7 +36,7 @@ version = 0.1
 
 # (list) Application requirements
 # comma separated e.g. requirements = sqlite3,kivy
-requirements = python3,kivy,kivymd,sdl2_ttf==2.0.15,requests,chardet,idna,urllib3,certifi,wikipedia,soupsieve,beautifulsoup4
+requirements = python3,kivy,kivymd,sdl2_ttf,requests,chardet,idna,urllib3,certifi,wikipedia,soupsieve,beautifulsoup4
 
 # (str) Custom source folders for requirements
 # Sets custom source for any requirements with recipes
@@ -85,7 +85,7 @@ fullscreen = 0
 #android.presplash_color = #FFFFFF
 
 # (list) Permissions
-#android.permissions = INTERNET
+android.permissions = INTERNET
 
 # (int) Target Android API, should be as high as possible.
 #android.api = 27
