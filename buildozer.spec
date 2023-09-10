@@ -1,19 +1,19 @@
 [app]
 
 # (str) Title of your application
-title = Wikipedia App
+title = AndTestApp
 
 # (str) Package name
-package.name = wiki
+package.name = first
 
 # (str) Package domain (needed for android/ios packaging)
-package.domain = org.wiki
+package.domain = org.first
 
 # (str) Source code where the main.py live
 source.dir = .
 
 # (list) Source files to include (let empty to include all the files)
-source.include_exts = py,png,jpg,kv,atlas
+source.include_exts = py
 
 # (list) List of inclusions using pattern matching
 #source.include_patterns = assets/*,images/*.png
@@ -36,7 +36,7 @@ version = 0.1
 
 # (list) Application requirements
 # comma separated e.g. requirements = sqlite3,kivy
-requirements = python3,kivy,kivymd,sdl2_ttf,requests,chardet,idna,urllib3,certifi,wikipedia,soupsieve,beautifulsoup4
+requirements = python3,kivy
 
 # (str) Custom source folders for requirements
 # Sets custom source for any requirements with recipes
